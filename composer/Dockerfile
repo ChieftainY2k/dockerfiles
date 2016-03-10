@@ -1,4 +1,4 @@
-FROM codete/php
+FROM codete/php5
 
 MAINTAINER Codete <docker@codete.com>
 
