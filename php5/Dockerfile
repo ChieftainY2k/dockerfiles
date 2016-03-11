@@ -10,7 +10,7 @@ RUN apt-get update && \
     sed -i "s/;date\.timezone =.*/date\.timezone = Europe\/Warsaw/" /etc/php5/fpm/php.ini && \
     sed -i "s/listen =.*/listen = 0\.0\.0\.0:9000/" /etc/php5/fpm/pool.d/www.conf
 
-VOLUME ["/var/log/php5-fpm", "/etc/php5/cli", "/etc/php5/fpm"]
+VOLUME ["/etc/php5/cli", "/etc/php5/fpm"]
 
 EXPOSE 9000
 
