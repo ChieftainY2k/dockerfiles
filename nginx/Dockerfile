@@ -12,7 +12,7 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
 
 COPY nginx-config /etc/nginx/sites-enabled/default
 
-VOLUME ["/etc/nginx/sites-enabled", "/var/log/nginx", "/srv", "/var/www"]
+VOLUME ["/etc/nginx/sites-enabled", "/var/log/nginx", "/var/www"]
 
 EXPOSE 80 443
 

@@ -13,8 +13,6 @@ RUN apt-get update && \
 
 VOLUME ["/etc/mysql", "/var/lib/mysql"]
 
-WORKDIR /data
-
 CMD ["mysqld_safe"]
 
 EXPOSE 3306
