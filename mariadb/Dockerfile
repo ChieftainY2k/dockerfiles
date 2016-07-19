@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+MAINTAINER Codete <ci@codete.com>
+
 RUN apt-get update && \
     DEBIAN_FRONTEND=nointeractive apt-get install -y mariadb-server && \
     apt-get clean && \

@@ -1,6 +1,6 @@
 FROM codete/php5
 
-MAINTAINER Codete <docker@codete.com>
+MAINTAINER Codete <ci@codete.com>
 
 RUN (curl -sS https://getcomposer.org/installer | php) && \
     chmod +x composer.phar && \

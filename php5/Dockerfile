@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Codete <docker@codete.com>
+MAINTAINER Codete <ci@codete.com>
 
 RUN apt-get update && \
     apt-get install -y ccze php5 php5-fpm php5-cli php5-dev php5-common php5-curl php5-mysql && \

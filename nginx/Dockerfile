@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Codete <docker@codete.com>
+MAINTAINER Codete <ci@codete.com>
 
 RUN apt-get update && \
     apt-get install -y nginx && \
